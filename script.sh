@@ -4,10 +4,10 @@
 set -e
 
 # Каталог з папками
-BASE_DIR="files"
+BASE_DIR="files2"
 
-# Цикл з 0008 до 0230
-for i in $(seq 8 230); do
+# Цикл з 0000 до 0100
+for i in $(seq 0 100); do
   DIR="$BASE_DIR/$(printf "%04d" $i)"
   
   # Якщо директорії немає — пропускаємо

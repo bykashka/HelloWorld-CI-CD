@@ -1,9 +1,9 @@
 import os
 import hashlib
 
-base_dir = "./files"
+base_dir = "./files2"
 os.makedirs(base_dir, exist_ok=True)
-num_files = 2_300_000
+num_files = 1_000_000
 file_size = 10720
 
 for i in range(1, num_files + 1):
